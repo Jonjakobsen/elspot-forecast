@@ -76,17 +76,9 @@ Loader den bedste model og scalerne, forudsiger elpriser for næste døgn, og vi
 
 ## 📊 Output
 
-Forecast-scriptet producerer et plot som viser:
-- Faktisk elpris vs. forudsagt pris for næste døgn.
-- Dynamisk titel med dato for næste dag.
-
-Ønsker du at gemme output, kan du udvide `03_forecasting.py` med:
-```python
-plt.savefig("../data/forecasts/forecast_<dato>.png")
-```
+03_forecasting-scriptet producerer et plot som viser modellens 
+prædiktion af næste døgns spotpriser.
 
 ---
 
-## 🧾 Licens
 
-Dette projekt er udgivet under MIT-licensen.
